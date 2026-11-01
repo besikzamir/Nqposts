@@ -4,7 +4,7 @@
 #   "hook": {"category": "...", "title": "...", "subtitle": "..."},
 #   "items": [{"title": "...", "text": "..."}, ...],      # 2-5 items
 #   "item_label": "טעות",                                    # shown as "<label> 1 מתוך 3"
-#   "cta": {"title": "...", "subtitle": "..."}}
+#   "cta": {"title": "...", "subtitle": "...", "footer": "..."}}
 # Needs Heebo.ttf next to this script, Pillow with raqm, ffmpeg.
 import json, os, random, subprocess, sys
 from PIL import Image, ImageDraw, ImageFont
@@ -151,7 +151,7 @@ class Reel:
         layers = [
             (text_layer(tl, font(size, 900), self.TXT, int(size * 1.12)), 560, 0.0),
             (text_layer(sub, font(64, 700), self.A, 80), y2, 0.35),
-            (text_layer(["פוסט חדש כל יום ב-10:00"], font(46, 500), self.MUT, 56), y2 + 80 * len(sub) + 60, 0.7),
+            (text_layer([c.get("footer", "תוכן חדש כל בוקר ב-10:00")], font(46, 500), self.MUT, 56), y2 + 80 * len(sub) + 60, 0.7),
         ]
         return 3.0, layers, False
 
