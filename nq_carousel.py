@@ -1,11 +1,12 @@
-# NQ Trader's Instagram carousel generator (wraps nq_post.py)
+# NQ Trader's Instagram carousel (1080x1350 slides) using one nq_design template for the whole set.
 # Usage: python3 nq_carousel.py carousel.json out_dir name
-# carousel.json: {"palette": "<name>", "seed": 1,
-#   "slides": [{"category": "...", "title": "...", "subtitle": "...", "bullets": [...], "footer": "..."}, ...]}
-# Writes out_dir/name-1.jpg ... name-N.jpg (2-10 slides, Instagram's carousel limit).
-import json, os, sys, tempfile
+# carousel.json: {"index": <running content number> | "template": "<name>", "variant": 0-2, "seed": 1,
+#   "slides": [{"category", "title", "subtitle", "bullets": [...], "footer", "number"}, ...]}
+# First slide renders as a cover, last as a closing slide, the rest as items.
+# Writes out_dir/name-1.jpg ... name-N.jpg (2-10 slides).
+import json, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import nq_post
+from nq_post import template_for
 
 
 def main(spec_path, out_dir, name):
@@ -13,15 +14,14 @@ def main(spec_path, out_dir, name):
     slides = c["slides"]
     if not 2 <= len(slides) <= 10:
         sys.exit("carousel needs 2-10 slides")
+    t = template_for(c)
     os.makedirs(out_dir, exist_ok=True)
     for i, s in enumerate(slides, 1):
-        spec = dict(s, palette=c.get("palette", "emerald"), seed=c.get("seed", 7))
-        with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False, encoding="utf-8") as f:
-            json.dump(spec, f, ensure_ascii=False)
+        kind = "cover" if i == 1 else "cta" if i == len(slides) else "item"
         out = os.path.join(out_dir, f"{name}-{i}.jpg")
-        nq_post.main(f.name, out)
-        os.unlink(f.name)
+        t.render(s, kind).save(out, quality=93)
         print(out)
+    print("template:", t.name, "variant:", t.variants.index(t.v))
 
 
 if __name__ == "__main__":
