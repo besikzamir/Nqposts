@@ -540,13 +540,12 @@ class TerminalChart(Template):
 
     def build_bg(self):
         W, H = self.W, self.H
-        bg = Image.new("RGBA", (W, H), (6, 8, 11, 255))
+        # smooth deep background (owner asked for no grid/squares)
+        bg = vgrad(W, H, [(12, 15, 20), (7, 9, 12), (4, 5, 7)]).convert("RGBA")
+        bg.alpha_composite(glow_blob(W, H, W, 0, int(W * 0.7), self.v["acc"], 34))
+        bg.alpha_composite(glow_blob(W, H, 0, H, int(W * 0.6), self.v["acc"], 18))
+        bg.alpha_composite(grain(W, H, 10, self.seed))
         d = ImageDraw.Draw(bg)
-        for x in range(0, W, 90):
-            d.line([(x, 0), (x, H)], fill=(255, 255, 255, 10))
-        for y in range(0, H, 90):
-            d.line([(0, y), (W, y)], fill=(255, 255, 255, 10))
-        bg.alpha_composite(glow_blob(W, H, W, 0, int(W * 0.6), self.v["acc"], 40))
         y = 110 if not self.reel else 250
         acc = self.v["acc"]
         bg.alpha_composite(Text(W, ["NQ TRADER'S"], F("rubik", 28, 700), (255, 255, 255, 230), 30, "r", self.margin, track=4).img, (0, y - 16))
