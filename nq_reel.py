@@ -18,14 +18,15 @@ W, H, FPS = 1080, 1920, 30
 
 
 def scenes(spec):
-    out = [(3.0, dict(spec["hook"], bullets=[]), "cover")]
+    # short and punchy: viewers decide in the first 1-2 seconds (hook is fully on screen at frame 1)
+    out = [(2.4, dict(spec["hook"], bullets=[]), "cover")]
     n = len(spec["items"])
     label = spec.get("item_label", "טיפ")
     for i, it in enumerate(spec["items"]):
-        out.append((4.0, {"number": f"0{i + 1}", "title": it["title"], "subtitle": it.get("text", ""),
+        out.append((3.4, {"number": f"0{i + 1}", "title": it["title"], "subtitle": it.get("text", ""),
                           "bullets": [], "footer": f"{label} {i + 1} מתוך {n}"}, "item"))
     c = spec["cta"]
-    out.append((3.0, {"title": c["title"], "subtitle": c.get("subtitle", ""), "bullets": [],
+    out.append((2.6, {"title": c["title"], "subtitle": c.get("subtitle", ""), "bullets": [],
                       "footer": c.get("footer", "תוכן חדש כל בוקר ב-10:00")}, "cta"))
     return out
 
@@ -47,7 +48,8 @@ def scene_frames(t, slide, kind, dur, t0, first):
     els = t.elements(slide, kind)
     for f in range(int(round(dur * FPS))):
         ts = f / FPS
-        img = t.render(slide, kind, ts, t0 + ts, els)
+        # the hook scene starts fully drawn so the first frame already carries the message
+        img = t.render(slide, kind, None if first else ts, t0 + ts, els)
         if not first and ts < 0.2:  # quick dip from the bare background, inside the scene file
             img = Image.blend(t.background(t0 + ts).convert("RGB"), img, ts / 0.2)
         yield img
