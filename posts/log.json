@@ -1,20 +1,27 @@
 [
- {
-  "date": "2026-11-01",
-  "type": "carousel",
-  "category": "פסיכולוגיה של מסחר",
-  "title": "5 הרגלים מנטליים"
- },
- {
-  "date": "2026-11-01",
-  "type": "recap-carousel",
-  "category": "סיכום שבועי",
-  "title": "סיכום השבוע בשווקים 26-30.10"
- },
- {
-  "date": "2026-11-01",
-  "type": "recap-reel",
-  "category": "סיכום שבועי",
-  "title": "השבוע בשווקים 26-30.10"
- }
+  {
+    "date": "2026-11-01",
+    "type": "carousel",
+    "category": "פסיכולוגיה של מסחר",
+    "title": "5 הרגלים מנטליים"
+  },
+  {
+    "date": "2026-11-01",
+    "type": "recap-carousel",
+    "category": "סיכום שבועי",
+    "title": "סיכום השבוע בשווקים 26-30.10"
+  },
+  {
+    "date": "2026-11-01",
+    "type": "recap-reel",
+    "category": "סיכום שבועי",
+    "title": "השבוע בשווקים 26-30.10"
+  },
+  {
+    "date": "2026-11-02",
+    "type": "carousel",
+    "category": "פסיכולוגיה של מסחר",
+    "title": "עוד עסקה אחת וזהו?",
+    "template": "terminal_chart"
+  }
 ]
