@@ -23,5 +23,12 @@
     "category": "פסיכולוגיה של מסחר",
     "title": "עוד עסקה אחת וזהו?",
     "template": "terminal_chart"
+  },
+  {
+    "date": "2026-11-03",
+    "type": "announcement-reel",
+    "category": "הודעה חשובה",
+    "title": "היום: בחירות בארה\"ב",
+    "template": "velvet"
   }
 ]
