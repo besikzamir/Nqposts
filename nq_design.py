@@ -715,8 +715,16 @@ class BoldSplit(Template):
             head.append((self.T([s["number"]], F("suez", 110, 400), ink + (150,), 110, "r").img, 0, "drop"))
         if s.get("category"):
             head.append((self.T([s["category"]], F("rubik", 34, 600), ink + (200,), 40, "r").img, 0, "drop"))
-        f, lines, size = fit(s["title"], "suez", 400, 150 if kind == "cover" else 124, self.maxw, 3)
-        head.append((self.T(lines, f, ink, int(size * 1.08), "r").img, 10, "drop"))
+        start = 150 if kind == "cover" else 124
+        # keep the headline block below the brand line (bottom-anchored blocks must not climb into it)
+        room = self.split - 50 - ((110 if not self.reel else 250) + 50)
+        while True:
+            f, lines, size = fit(s["title"], "suez", 400, start, self.maxw, 3)
+            tim = self.T(lines, f, ink, int(size * 1.08), "r").img
+            if sum(g + im.height for im, g, _ in head) + 10 + tim.height <= room or start <= 64:
+                break
+            start -= 6
+        head.append((tim, 10, "drop"))
         # bottom-anchor the headline above the split line
         total = sum(g + im.height for im, g, _ in head)
         y = self.split - 50 - total
