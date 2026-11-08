@@ -51,5 +51,19 @@
     "category": "הודעה חשובה",
     "title": "דוח התעסוקה היום 15:30",
     "template": "ivory_editorial"
+  },
+  {
+    "date": "2026-11-08",
+    "type": "recap-carousel",
+    "category": "סיכום שבועי",
+    "title": "נאסדק: השבוע הגרוע מאז יוני",
+    "template": "glass_aurora"
+  },
+  {
+    "date": "2026-11-08",
+    "type": "recap-reel",
+    "category": "סיכום שבועי",
+    "title": "קריסת ה-AI אחרי הבחירות",
+    "template": "terminal_chart"
   }
 ]
