@@ -65,5 +65,12 @@
     "category": "סיכום שבועי",
     "title": "קריסת ה-AI אחרי הבחירות",
     "template": "terminal_chart"
+  },
+  {
+    "date": "2026-11-09",
+    "type": "carousel",
+    "category": "פסיכולוגיה של מסחר",
+    "title": "הפסדת 3 ימים ברצף?",
+    "template": "velvet"
   }
 ]
