@@ -72,5 +72,12 @@
     "category": "פסיכולוגיה של מסחר",
     "title": "הפסדת 3 ימים ברצף?",
     "template": "velvet"
+  },
+  {
+    "date": "2026-11-10",
+    "type": "announcement-reel",
+    "category": "הודעה חשובה",
+    "title": "הדקה הכי מסוכנת היום",
+    "template": "bold_split"
   }
 ]
