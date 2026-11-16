@@ -114,5 +114,12 @@
     "category": "סיכום שבועי",
     "title": "אנבידיה איבדה את הואנג",
     "template": "velvet"
+  },
+  {
+    "date": "2026-11-16",
+    "type": "carousel",
+    "category": "פסיכולוגיה של מסחר",
+    "title": "אחרי יום ענק באה המכה",
+    "template": "bold_split"
   }
 ]
