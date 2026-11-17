@@ -121,5 +121,12 @@
     "category": "פסיכולוגיה של מסחר",
     "title": "אחרי יום ענק באה המכה",
     "template": "bold_split"
+  },
+  {
+    "date": "2026-11-17",
+    "type": "announcement-reel",
+    "category": "הודעה חשובה",
+    "title": "הלילה אנבידיה מזיזה הכל",
+    "template": "noir_gold"
   }
 ]
