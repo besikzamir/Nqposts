@@ -128,5 +128,12 @@
     "category": "הודעה חשובה",
     "title": "הלילה אנבידיה מזיזה הכל",
     "template": "noir_gold"
+  },
+  {
+    "date": "2026-11-18",
+    "type": "announcement-reel",
+    "category": "הודעה חשובה",
+    "title": "מה הפד יחשוף הערב?",
+    "template": "ivory_editorial"
   }
 ]
