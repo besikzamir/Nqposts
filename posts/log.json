@@ -135,5 +135,12 @@
     "category": "הודעה חשובה",
     "title": "מה הפד יחשוף הערב?",
     "template": "ivory_editorial"
+  },
+  {
+    "date": "2026-11-19",
+    "type": "carousel",
+    "category": "פסיכולוגיה של מסחר",
+    "title": "עשית 12 עסקאות היום?",
+    "template": "glass_aurora"
   }
 ]
