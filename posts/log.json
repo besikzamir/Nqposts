@@ -142,5 +142,12 @@
     "category": "פסיכולוגיה של מסחר",
     "title": "עשית 12 עסקאות היום?",
     "template": "glass_aurora"
+  },
+  {
+    "date": "2026-11-20",
+    "type": "reel",
+    "category": "פסיכולוגיה של מסחר",
+    "title": "החזרת את השבוע בשישי?",
+    "template": "terminal_chart"
   }
 ]
