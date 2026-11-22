@@ -149,5 +149,19 @@
     "category": "פסיכולוגיה של מסחר",
     "title": "החזרת את השבוע בשישי?",
     "template": "terminal_chart"
+  },
+  {
+    "date": "2026-11-22",
+    "type": "recap-carousel",
+    "category": "סיכום שבועי",
+    "title": "הנאסדק צנח 10% בשבוע",
+    "template": "velvet"
+  },
+  {
+    "date": "2026-11-22",
+    "type": "recap-reel",
+    "category": "סיכום שבועי",
+    "title": "הנאסדק צנח 10% בשבוע",
+    "template": "bold_split"
   }
 ]

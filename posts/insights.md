@@ -1,26 +1,25 @@
-# Weekly insights - 2026-11-15 (week 8-14.11 vs 1-7.11)
+# Weekly insights - 2026-11-22 (week 15-21.11 vs 8-14.11)
 
-Source: Metricool brand 7803171, pulled 15.11. Reach = sum of daily account reach (not unique). Last-week numbers were re-pulled today and differ from the 08.11 report (later views counted).
+Source: Metricool brand 7803171, pulled 22.11. Reach = sum of daily account reach (not unique). Reels by publish date.
 
-| Metric | 8-14.11 | 1-7.11 |
+| Metric | 15-21.11 | 8-14.11 |
 |---|---|---|
-| Account views (IGEV05) | 6,718 | 8,564 |
-| Account reach, sum of days (IGEV06) | 1,011 | 1,263 |
-| Followers | 391 (8.11) -> 394 (13.11); +8 / -2 | 384 (1.11) -> 389 (6.11); +10 / -4 |
-| Reels: total views (IGRE23) | 1,289 (7 reels) | 1,779 (6 reels, 06.11 duplicate with 1 view excluded) |
-| Reels: avg 3-sec view rate | 22.5% | 21.2% |
-| Reels: avg watch time | 4.7s | 9.1s |
-| Reels: shares / saves / comments | 1 / 10 / 34 | 4 / 10 / 12 |
-| Feed saves (IGEV15) | 9 | 15 |
-| Feed shares (IGEV40) | no data returned | 10 |
+| Account views (IGEV05) | 8,447 | 7,118 |
+| Account reach, sum of days (IGEV06) | 1,269 | 1,032 |
+| Followers | 398 (16.11) -> 401 (21.11); +9 / -2 | 391 (8.11) -> 395 (14.11); +8 / -3 |
+| Reels: total views (IGRE23) | 2,422 (8 reels) | 1,435 (7 reels) |
+| Reels: avg 3-sec view rate | 23.9% | 22.7% |
+| Reels: avg watch time | 5.6s | 4.7s |
+| Reels: shares / saves / comments | 0 / 14 / 33 | 1 / 11 / 35 |
+| Feed saves (IGEV15) | 4 | 9 |
+| Feed shares (IGEV40) | 1 | 0 |
 
-Top reel: 09.11 owner's "הגיבו סקירה" - 268 views, 31 comments, but only 13.2% 3-sec.
-Best retention: owner reels 08.11 revenge-trading (222 views, 32.0%, 6.4s) and 11.11 "Live Funded Topstep" (173 views, 31.9%, 6.1s).
-Best designed reel: 10.11 announcement "הדקה הכי מסוכנת היום" (bold_split) - 160 views, 25.2% 3-sec, up from 16.8-17.8% for last week's event-name announcement hooks.
-Bottom: 13.11 PPI announcement (glass_aurora) - 60 views, 20.0% (only ~2 days of data). Recap reel 08.11 (terminal_chart): 219 views but 14.3% 3-sec, lowest retention again (01.11: 13.6%).
-Watch time halved because no long personal reel this week (last week: 07.11 19.6s, 02.11 12.6s).
+Top: owner reels 16.11 "מנטור שלכם גנגסטר..." 566 views, 35.6% 3-sec; 16.11 "עד מתי חיוב בכל עשירי" 450 views, 43.8% 3-sec (best ever retention). Humor/relatable owner clips beat everything.
+Best designed: 18.11 FOMC announcement "מה הפד יחשוף הערב?" (ivory_editorial) 262 views, 20.5%. 17.11 NVDA announcement (noir_gold) had the best watch time, 10.8s.
+Bottom: 16.11 Nostropedia ad 175 views, 19.1%; 15.11 recap reel "אנבידיה איבדה את הואנג" (velvet) 191 views, 18.6% - up from 13.7% (08.11) but still lowest-retention format apart from comment bait (14.5%).
+20.11 mental reel (terminal_chart) not in Metricool reel data yet (not published or no data).
 
 ## Next week
-1. Owner on-camera reels hold ~32% 3-sec vs 14-25% for designed reels: post at least 2 (PNL / live account / talking to camera).
-2. Announcement hooks: keep the consequence/danger frame ("הדקה הכי מסוכנת היום") - it beat event-name hooks by ~7-8 points.
-3. Recap reel has the weakest 3-sec rate two weeks running: compare 15.11 ("אנבידיה איבדה את הואנג"); if still under 16%, try the recap as an owner talking-to-camera clip with the carousel as backup. Shares stay near zero (1 this week) - every caption needs a concrete "send to X" reason.
+1. Owner humor/relatable clips got 35-44% 3-sec and the two highest view counts: post 2+ of these again; designed reels stay 18-21%.
+2. Announcement hooks that pose a question about a named event ("מה הפד יחשוף הערב?", "הלילה אנבידיה מזיזה הכל") held 20%+ and long watch time - keep that format for PCE/GDP (Wed 25.11 15:30).
+3. Recap reel passed the 16% bar (18.6%), so keep it designed but lead with a hard number in the hook (22.11: "הנאסדק צנח 10% בשבוע"). Shares are still 0 on reels - test a direct "send to the friend who bought the dip" line.
