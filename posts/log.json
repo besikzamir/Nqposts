@@ -163,5 +163,12 @@
     "category": "סיכום שבועי",
     "title": "הנאסדק צנח 10% בשבוע",
     "template": "bold_split"
+  },
+  {
+    "date": "2026-11-23",
+    "type": "carousel",
+    "category": "פסיכולוגיה של מסחר",
+    "title": "קנית את הירידה ונתקעת?",
+    "template": "noir_gold"
   }
 ]
