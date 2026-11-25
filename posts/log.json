@@ -1,181 +1,188 @@
 [
- {
-  "date": "2026-11-01",
-  "type": "carousel",
-  "category": "פסיכולוגיה של מסחר",
-  "title": "5 הרגלים מנטליים"
- },
- {
-  "date": "2026-11-01",
-  "type": "recap-carousel",
-  "category": "סיכום שבועי",
-  "title": "סיכום השבוע בשווקים 26-30.10"
- },
- {
-  "date": "2026-11-01",
-  "type": "recap-reel",
-  "category": "סיכום שבועי",
-  "title": "השבוע בשווקים 26-30.10"
- },
- {
-  "date": "2026-11-02",
-  "type": "carousel",
-  "category": "פסיכולוגיה של מסחר",
-  "title": "עוד עסקה אחת וזהו?",
-  "template": "terminal_chart"
- },
- {
-  "date": "2026-11-03",
-  "type": "announcement-reel",
-  "category": "הודעה חשובה",
-  "title": "היום: בחירות בארה\"ב",
-  "template": "velvet"
- },
- {
-  "date": "2026-11-04",
-  "type": "announcement-reel",
-  "category": "הודעה חשובה",
-  "title": "ISM שירותים היום ב-17:00",
-  "template": "bold_split"
- },
- {
-  "date": "2026-11-05",
-  "type": "carousel",
-  "category": "פסיכולוגיה של מסחר",
-  "title": "הזזת את הסטופ שוב?",
-  "template": "noir_gold"
- },
- {
-  "date": "2026-11-06",
-  "type": "announcement-reel",
-  "category": "הודעה חשובה",
-  "title": "דוח התעסוקה היום 15:30",
-  "template": "ivory_editorial"
- },
- {
-  "date": "2026-11-08",
-  "type": "recap-carousel",
-  "category": "סיכום שבועי",
-  "title": "נאסדק: השבוע הגרוע מאז יוני",
-  "template": "glass_aurora"
- },
- {
-  "date": "2026-11-08",
-  "type": "recap-reel",
-  "category": "סיכום שבועי",
-  "title": "קריסת ה-AI אחרי הבחירות",
-  "template": "terminal_chart"
- },
- {
-  "date": "2026-11-09",
-  "type": "carousel",
-  "category": "פסיכולוגיה של מסחר",
-  "title": "הפסדת 3 ימים ברצף?",
-  "template": "velvet"
- },
- {
-  "date": "2026-11-10",
-  "type": "announcement-reel",
-  "category": "הודעה חשובה",
-  "title": "הדקה הכי מסוכנת היום",
-  "template": "bold_split"
- },
- {
-  "date": "2026-11-11",
-  "type": "reel",
-  "category": "פסיכולוגיה של מסחר",
-  "title": "נכנסת מוקדם מדי שוב?",
-  "template": "noir_gold"
- },
- {
-  "date": "2026-11-12",
-  "type": "carousel",
-  "category": "פסיכולוגיה של מסחר",
-  "title": "הטעות שמחסלת חשבונות פרופ",
-  "template": "ivory_editorial"
- },
- {
-  "date": "2026-11-13",
-  "type": "announcement-reel",
-  "category": "הודעה חשובה",
-  "title": "הקפיצה של 1.3% חוזרת?",
-  "template": "glass_aurora"
- },
- {
-  "date": "2026-11-15",
-  "type": "recap-carousel",
-  "category": "סיכום שבועי",
-  "title": "הואנג עזב, הנאסדק עלה",
-  "template": "terminal_chart"
- },
- {
-  "date": "2026-11-15",
-  "type": "recap-reel",
-  "category": "סיכום שבועי",
-  "title": "אנבידיה איבדה את הואנג",
-  "template": "velvet"
- },
- {
-  "date": "2026-11-16",
-  "type": "carousel",
-  "category": "פסיכולוגיה של מסחר",
-  "title": "אחרי יום ענק באה המכה",
-  "template": "bold_split"
- },
- {
-  "date": "2026-11-17",
-  "type": "announcement-reel",
-  "category": "הודעה חשובה",
-  "title": "הלילה אנבידיה מזיזה הכל",
-  "template": "noir_gold"
- },
- {
-  "date": "2026-11-18",
-  "type": "announcement-reel",
-  "category": "הודעה חשובה",
-  "title": "מה הפד יחשוף הערב?",
-  "template": "ivory_editorial"
- },
- {
-  "date": "2026-11-19",
-  "type": "carousel",
-  "category": "פסיכולוגיה של מסחר",
-  "title": "עשית 12 עסקאות היום?",
-  "template": "glass_aurora"
- },
- {
-  "date": "2026-11-20",
-  "type": "reel",
-  "category": "פסיכולוגיה של מסחר",
-  "title": "החזרת את השבוע בשישי?",
-  "template": "terminal_chart"
- },
- {
-  "date": "2026-11-22",
-  "type": "recap-carousel",
-  "category": "סיכום שבועי",
-  "title": "הנאסדק צנח 10% בשבוע",
-  "template": "velvet"
- },
- {
-  "date": "2026-11-22",
-  "type": "recap-reel",
-  "category": "סיכום שבועי",
-  "title": "הנאסדק צנח 10% בשבוע",
-  "template": "bold_split"
- },
- {
-  "date": "2026-11-23",
-  "type": "carousel",
-  "category": "פסיכולוגיה של מסחר",
-  "title": "קנית את הירידה ונתקעת?",
-  "template": "noir_gold"
- },
- {
-  "date": "2026-11-24",
-  "type": "announcement-reel",
-  "category": "הודעה חשובה",
-  "title": "4 דוחות בדקה אחת מחר",
-  "template": "ivory_editorial"
- }
+  {
+    "date": "2026-11-01",
+    "type": "carousel",
+    "category": "פסיכולוגיה של מסחר",
+    "title": "5 הרגלים מנטליים"
+  },
+  {
+    "date": "2026-11-01",
+    "type": "recap-carousel",
+    "category": "סיכום שבועי",
+    "title": "סיכום השבוע בשווקים 26-30.10"
+  },
+  {
+    "date": "2026-11-01",
+    "type": "recap-reel",
+    "category": "סיכום שבועי",
+    "title": "השבוע בשווקים 26-30.10"
+  },
+  {
+    "date": "2026-11-02",
+    "type": "carousel",
+    "category": "פסיכולוגיה של מסחר",
+    "title": "עוד עסקה אחת וזהו?",
+    "template": "terminal_chart"
+  },
+  {
+    "date": "2026-11-03",
+    "type": "announcement-reel",
+    "category": "הודעה חשובה",
+    "title": "היום: בחירות בארה\"ב",
+    "template": "velvet"
+  },
+  {
+    "date": "2026-11-04",
+    "type": "announcement-reel",
+    "category": "הודעה חשובה",
+    "title": "ISM שירותים היום ב-17:00",
+    "template": "bold_split"
+  },
+  {
+    "date": "2026-11-05",
+    "type": "carousel",
+    "category": "פסיכולוגיה של מסחר",
+    "title": "הזזת את הסטופ שוב?",
+    "template": "noir_gold"
+  },
+  {
+    "date": "2026-11-06",
+    "type": "announcement-reel",
+    "category": "הודעה חשובה",
+    "title": "דוח התעסוקה היום 15:30",
+    "template": "ivory_editorial"
+  },
+  {
+    "date": "2026-11-08",
+    "type": "recap-carousel",
+    "category": "סיכום שבועי",
+    "title": "נאסדק: השבוע הגרוע מאז יוני",
+    "template": "glass_aurora"
+  },
+  {
+    "date": "2026-11-08",
+    "type": "recap-reel",
+    "category": "סיכום שבועי",
+    "title": "קריסת ה-AI אחרי הבחירות",
+    "template": "terminal_chart"
+  },
+  {
+    "date": "2026-11-09",
+    "type": "carousel",
+    "category": "פסיכולוגיה של מסחר",
+    "title": "הפסדת 3 ימים ברצף?",
+    "template": "velvet"
+  },
+  {
+    "date": "2026-11-10",
+    "type": "announcement-reel",
+    "category": "הודעה חשובה",
+    "title": "הדקה הכי מסוכנת היום",
+    "template": "bold_split"
+  },
+  {
+    "date": "2026-11-11",
+    "type": "reel",
+    "category": "פסיכולוגיה של מסחר",
+    "title": "נכנסת מוקדם מדי שוב?",
+    "template": "noir_gold"
+  },
+  {
+    "date": "2026-11-12",
+    "type": "carousel",
+    "category": "פסיכולוגיה של מסחר",
+    "title": "הטעות שמחסלת חשבונות פרופ",
+    "template": "ivory_editorial"
+  },
+  {
+    "date": "2026-11-13",
+    "type": "announcement-reel",
+    "category": "הודעה חשובה",
+    "title": "הקפיצה של 1.3% חוזרת?",
+    "template": "glass_aurora"
+  },
+  {
+    "date": "2026-11-15",
+    "type": "recap-carousel",
+    "category": "סיכום שבועי",
+    "title": "הואנג עזב, הנאסדק עלה",
+    "template": "terminal_chart"
+  },
+  {
+    "date": "2026-11-15",
+    "type": "recap-reel",
+    "category": "סיכום שבועי",
+    "title": "אנבידיה איבדה את הואנג",
+    "template": "velvet"
+  },
+  {
+    "date": "2026-11-16",
+    "type": "carousel",
+    "category": "פסיכולוגיה של מסחר",
+    "title": "אחרי יום ענק באה המכה",
+    "template": "bold_split"
+  },
+  {
+    "date": "2026-11-17",
+    "type": "announcement-reel",
+    "category": "הודעה חשובה",
+    "title": "הלילה אנבידיה מזיזה הכל",
+    "template": "noir_gold"
+  },
+  {
+    "date": "2026-11-18",
+    "type": "announcement-reel",
+    "category": "הודעה חשובה",
+    "title": "מה הפד יחשוף הערב?",
+    "template": "ivory_editorial"
+  },
+  {
+    "date": "2026-11-19",
+    "type": "carousel",
+    "category": "פסיכולוגיה של מסחר",
+    "title": "עשית 12 עסקאות היום?",
+    "template": "glass_aurora"
+  },
+  {
+    "date": "2026-11-20",
+    "type": "reel",
+    "category": "פסיכולוגיה של מסחר",
+    "title": "החזרת את השבוע בשישי?",
+    "template": "terminal_chart"
+  },
+  {
+    "date": "2026-11-22",
+    "type": "recap-carousel",
+    "category": "סיכום שבועי",
+    "title": "הנאסדק צנח 10% בשבוע",
+    "template": "velvet"
+  },
+  {
+    "date": "2026-11-22",
+    "type": "recap-reel",
+    "category": "סיכום שבועי",
+    "title": "הנאסדק צנח 10% בשבוע",
+    "template": "bold_split"
+  },
+  {
+    "date": "2026-11-23",
+    "type": "carousel",
+    "category": "פסיכולוגיה של מסחר",
+    "title": "קנית את הירידה ונתקעת?",
+    "template": "noir_gold"
+  },
+  {
+    "date": "2026-11-24",
+    "type": "announcement-reel",
+    "category": "הודעה חשובה",
+    "title": "4 דוחות בדקה אחת מחר",
+    "template": "ivory_editorial"
+  },
+  {
+    "date": "2026-11-25",
+    "type": "announcement-reel",
+    "category": "הודעה חשובה",
+    "title": "מה יגיד ה-PCE ב-15:30?",
+    "template": "glass_aurora"
+  }
 ]
