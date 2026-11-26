@@ -184,5 +184,12 @@
     "category": "הודעה חשובה",
     "title": "מה יגיד ה-PCE ב-15:30?",
     "template": "glass_aurora"
+  },
+  {
+    "date": "2026-11-26",
+    "type": "carousel",
+    "category": "פסיכולוגיה של מסחר",
+    "title": "אין תנועה ואתה נכנס?",
+    "template": "terminal_chart"
   }
 ]
